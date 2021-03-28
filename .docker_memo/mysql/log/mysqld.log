@@ -400,3 +400,45 @@ Version: '5.7.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2021-03-28T00:02:08.354879Z 0 [Note] Event Scheduler: Loaded 0 events
 2021-03-28T00:02:08.355767Z 0 [Note] mysqld: ready for connections.
 Version: '5.7.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2021-03-28T22:56:00.481629Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-03-28T22:56:00.491285Z 0 [Note] mysqld (mysqld 5.7.33) starting as process 1 ...
+2021-03-28T22:56:00.500006Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-03-28T22:56:00.510790Z 0 [Note] InnoDB: PUNCH HOLE support available
+2021-03-28T22:56:00.512067Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-03-28T22:56:00.513024Z 0 [Note] InnoDB: Uses event mutexes
+2021-03-28T22:56:00.513649Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-03-28T22:56:00.514533Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-28T22:56:00.515584Z 0 [Note] InnoDB: Using Linux native AIO
+2021-03-28T22:56:00.517901Z 0 [Note] InnoDB: Number of pools: 1
+2021-03-28T22:56:00.521057Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-03-28T22:56:00.523866Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-03-28T22:56:00.538059Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-28T22:56:00.543164Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-28T22:56:00.606601Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-03-28T22:56:00.621094Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 12716088
+2021-03-28T22:56:00.625368Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 12716097
+2021-03-28T22:56:00.626413Z 0 [Note] InnoDB: Database was not shutdown normally!
+2021-03-28T22:56:00.627595Z 0 [Note] InnoDB: Starting crash recovery.
+2021-03-28T22:56:00.976996Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-03-28T22:56:00.978171Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-28T22:56:00.984778Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-28T22:56:01.155115Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-28T22:56:01.162412Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-03-28T22:56:01.163280Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-03-28T22:56:01.165124Z 0 [Note] InnoDB: Waiting for purge to start
+2021-03-28T22:56:01.217634Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 12716097
+2021-03-28T22:56:01.219348Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-28T22:56:01.220763Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-03-28T22:56:01.284504Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-03-28T22:56:01.285872Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-03-28T22:56:01.294443Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210329  7:56:01
+2021-03-28T22:56:01.296153Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-03-28T22:56:01.298291Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-03-28T22:56:01.304857Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-03-28T22:56:01.305485Z 0 [Note] IPv6 is available.
+2021-03-28T22:56:01.306046Z 0 [Note]   - '::' resolves to '::';
+2021-03-28T22:56:01.306782Z 0 [Note] Server socket created on IP: '::'.
+2021-03-28T22:56:01.309014Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-28T22:56:01.616281Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-03-28T22:56:01.617741Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)

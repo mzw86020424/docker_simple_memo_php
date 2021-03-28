@@ -32,3 +32,6 @@
 [26-Mar-2021 08:04:05 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 17
 [26-Mar-2021 08:04:14 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 17
 [28-Mar-2021 09:02:53 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 17
+[29-Mar-2021 08:05:26 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[29-Mar-2021 08:05:36 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[29-Mar-2021 08:07:44 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
