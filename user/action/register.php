@@ -11,7 +11,8 @@
 
   try {
     // インサートSQLを作成して実行
-    if ($statement = $database_handler->prepare('INSERT INTO users (name, email, password) VALUES (:name, :email, :password)')) {
+    if ($statement = $database_handler->prepare(
+      'INSERT INTO users (name, email, password) VALUES (:name, :email, :password)')) {
       $password = password_hash($user_password, PASSWORD_DEFAULT);
 
       $statement->bindParam(':name', htmlspecialchars($user_name));

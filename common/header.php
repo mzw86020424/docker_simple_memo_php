@@ -1,7 +1,9 @@
 <?php
-// - タイトルを指定してヘッダーを作成する
-// - @param $title
-// - @return string
+/**
+ * タイトルを指定してヘッダーを作成する
+ * @param $title
+ * @return string
+ */
 
 function getHeader($title){
   return <<<EOF
