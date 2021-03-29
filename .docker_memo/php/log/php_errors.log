@@ -456,3 +456,15 @@ Stack trace:
 [29-Mar-2021 14:59:43 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/select.php on line 22
 [29-Mar-2021 14:59:43 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/select.php on line 23
 [29-Mar-2021 14:59:43 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/select.php on line 24
+[29-Mar-2021 15:31:20 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 20
+[29-Mar-2021 15:31:20 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 21
+[29-Mar-2021 15:31:20 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/memo/action/update.php on line 29
+[29-Mar-2021 15:31:20 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 33
+[29-Mar-2021 15:31:20 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 34
+[29-Mar-2021 15:31:20 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 35
+[29-Mar-2021 15:31:37 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 20
+[29-Mar-2021 15:31:37 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 21
+[29-Mar-2021 15:31:37 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/memo/action/update.php on line 29
+[29-Mar-2021 15:31:37 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 33
+[29-Mar-2021 15:31:37 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 34
+[29-Mar-2021 15:31:37 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 35
