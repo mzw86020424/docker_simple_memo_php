@@ -35,3 +35,22 @@
 [29-Mar-2021 08:05:26 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
 [29-Mar-2021 08:05:36 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
 [29-Mar-2021 08:07:44 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[29-Mar-2021 08:12:07 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[29-Mar-2021 08:12:26 Asia/Tokyo] PHP Notice:  Undefined index: user_name in /var/www/html/user/action/register.php on line 7
+[29-Mar-2021 08:12:26 Asia/Tokyo] PHP Notice:  Undefined index: user_email in /var/www/html/user/action/register.php on line 8
+[29-Mar-2021 08:12:26 Asia/Tokyo] PHP Notice:  Undefined index: user_password in /var/www/html/user/action/register.php on line 9
+[29-Mar-2021 08:12:26 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[29-Mar-2021 08:13:12 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[29-Mar-2021 08:21:10 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[29-Mar-2021 08:22:59 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[29-Mar-2021 09:31:25 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 51
+[29-Mar-2021 09:32:03 Asia/Tokyo] PHP Notice:  Undefined variable: statement in /var/www/html/login/action/login.php on line 36
+[29-Mar-2021 09:32:03 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getDatabaseConnection() on null in /var/www/html/login/action/login.php:36
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/login/action/login.php on line 36
+[29-Mar-2021 09:32:27 Asia/Tokyo] PHP Notice:  Undefined variable: statement in /var/www/html/login/action/login.php on line 36
+[29-Mar-2021 09:32:27 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getDatabaseConnection() on null in /var/www/html/login/action/login.php:36
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/login/action/login.php on line 36

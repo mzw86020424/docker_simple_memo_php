@@ -36,6 +36,7 @@ if (!$_SESSION['errors']) {
 
 if ($_SESSION['errors']) {
   header('Location: ../../user/');
+  exit;
 }
 
 // DB接続処理
@@ -51,11 +52,19 @@ try {
     $statement->bindParam(':email', $user_email);
     $statement->bindParam(':password', $password);
     $statement->execute();
+
+    // ユーザー情報保持
+    $_SESSION['user']=[
+      'name' => $user_name,
+      'id' => $database_handler->lastInsertId()
+    ];
   }
 } catch (Throwable $e) {
   echo $e->getMessage();
   exit;
 }
+
+
 
 // メモ投稿画面にリダイレクト
 header('Location: ../../memo/');
