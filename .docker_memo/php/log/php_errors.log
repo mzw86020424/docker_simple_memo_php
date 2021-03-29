@@ -54,3 +54,16 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /var/www/html/login/action/login.php on line 36
+[29-Mar-2021 10:59:23 Asia/Tokyo] PHP Notice:  Undefined variable: state in /var/www/html/memo/index.php on line 17
+[29-Mar-2021 10:59:23 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /var/www/html/memo/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/memo/index.php on line 17
+[29-Mar-2021 10:59:46 Asia/Tokyo] PHP Notice:  Undefined variable: state in /var/www/html/memo/index.php on line 17
+[29-Mar-2021 10:59:46 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /var/www/html/memo/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/memo/index.php on line 17
+[29-Mar-2021 11:17:24 Asia/Tokyo] PHP Notice:  Undefined index: update_at in /var/www/html/memo/index.php on line 72
+[29-Mar-2021 11:17:26 Asia/Tokyo] PHP Notice:  Undefined index: update_at in /var/www/html/memo/index.php on line 72
+[29-Mar-2021 11:19:44 Asia/Tokyo] PHP Notice:  Undefined index: update_at in /var/www/html/memo/index.php on line 72
